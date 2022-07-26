@@ -1,4 +1,130 @@
 .header{
     color:blanchedalmond;
     background-color: black;
+    font-weight: bold;
+    font-size: 2em;
+    padding-left: 50px;
+    border-radius: 25px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-image: url("Banner.png");
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    background-size: 16em;
+
+
 }
+button{
+background-color: red;border: 1px solid red;
+font-size: 1.3em;
+color: beige;
+margin-bottom: 35px;
+
+}
+.try{
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    
+}
+#main{
+   height: 290px;
+   width: 300px;
+   background-color: black;
+   margin-top: 100px;
+   padding-top: 5px;
+   justify-content: center;
+   margin-left: 120px;
+}
+
+.inside{
+    height: 50px;
+    width:200px;
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    border-radius: 7%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+   
+}
+.group{
+    height: 50px;
+    width:200px;
+    background-color:white;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    border-radius: 7%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.blog{
+    height: 50px;
+    width:200px;
+    background-color:red;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 7%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.transfar{
+
+    height: 20px;
+    width: 60px;
+    color: black;
+    border: 1px solid black;
+
+}
+.icon{
+    display:flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 24px;
+    margin-left:200px;
+    margin-right: calc(100% - 100px) ;
+    float: left;
+    margin-bottom: -200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+footer{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:125px;
+    
+}
+hr{
+border: 1px solid rgba(255, 255, 255, 0.1);
+width: 60%;
+}
+.beneath{
+    color: white;
+    display: inline;
+    margin-right: 40px;
+}
+
+    
+
